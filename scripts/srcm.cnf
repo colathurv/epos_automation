@@ -1,0 +1,4 @@
+[client]
+host=<Enter the hostname of the MYSQL Instance>
+port=<Enter the port of the MYSQL Instance>
+password=<Enter the password of the MYSQL user srcmadmin>

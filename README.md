@@ -36,7 +36,7 @@ created by this system are sent by gmail.
    AWS EC2 for the Web Application [**Production**]
    
    
-##How does all of these add up ?
+## How does all of these add up ?
 1. Store Managers use Point of Sale System to perform sales. After end of the day reconciliation they send the 
 data files created by email. 
 2. The **run_all.bat** when invoked will perform all the steps in item 2 of the Sales and Reporting Section above. 

@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='srcm_nbks_styles.css') }}">
+</head>
+
+<body>
+    <div>
+		<img src = {{ url_for('static', filename = 'images/srcmlogo.png') }}>
+    </div>
+    <div class = 'head-bar'>
+				 US National Bookstore Repository
+    </div>
+
+	<div class = 'pane edit-pane'>
+	<form action="{{ url_for('showItems') }}" method = 'post'>
+        <div class ='edit-item-header'>Enter an Item Code or any part of the Item Title</div>
+		<div class='edit-item-value' ><input class='edit-input-value' type='text' name ='search_str' ></div>
+		<div class='edit-item-value' ><input class='edit-submit-button' type='submit' value='Search'></div>
+	</form>
+    </div>
+
+</body>
+
+<div class='heartfulness-logo'><a href="http://en.heartfulness.org/"><img class="navbar-brand" src="http://en.heartfulness.org/wp-content/uploads/sites/2/2016/02/HFNlogo-sahaj-marg-meditation.png" alt="English">
+</a></div>
+
+
+</html>

@@ -1,0 +1,187 @@
+body            { font-family: sans-serif; background-image: url('img3.jpg'); background-color: #f7f7f7; font-size: .85em;}
+h1, h2, h3, h4       { color: #FFFFFF; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+
+p, dd, dt               {font-size: 10px; color: #4682B4;}
+
+a {text-decoration: none; color:#4682b4; font-size: .75em; font-weight: bold}
+
+.pane {	
+	left: 12%; 
+	border: 2px solid;
+    	margin: 25px; 
+    	border-color: #999999; 
+    	background-color: #ffffff;
+}
+
+.head-bar {
+        width: 1500px;
+        text-align: center;
+        color: white;
+        height: 40px;
+        font-size: 2.0em;
+        background-color: #4682B4;
+}
+.header         {left:50%; text-align: center;}
+.name {width:50%;display: inline-block; float: left;}
+.description {}
+.price {text-align: right; width:50%; float: right; }
+.editdeletepane{}
+
+.flash          { background: #cee5F5; }
+.error          { background: #f0d6d6; padding: 0.5em; }
+
+.category-header {
+	float: left;
+	margin: 10px;
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 18px;
+}
+.latest-item-header {
+	float: right;
+	margin: 10px;
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 18px;
+}
+.item-header {
+	float: right;
+	margin-top: 10px;
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 18px;
+}
+.item-description-header {
+	margin: 10px;
+	font-size: 30px;
+    	font-weight: bold;
+}
+.add-item-name {
+	float: right;
+	margin-top: 13px;
+  	margin-right: 142px;
+}
+.page-title {
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+.edit-pane {
+	padding: 10px;
+}
+.edit-item-header {
+	float: left;
+	margin: 10px;
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 18px;
+	width: 100%;
+}
+.edit-item-value {
+	width: 100%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.edit-input-value {
+	font-size: 18px;
+}
+.category-name, .item-name {
+	color: #FA8072;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+.edit-submit-button { 
+	font-size: 15px;
+	font-size: bold;
+	margin-top: 10px;	
+	margin-bottom: 10px;	
+}
+.login-div {
+	float:right;
+	margin-right:50px;
+	margin-top: 11px;
+}
+.login-input{
+	background-color: red; 
+	color: white;
+}
+.logout-div {
+	float:right;
+	margin-right:50px;
+	margin-top: 11px;
+}
+.logout-input{
+	background-color: red; 
+	color: white;
+}
+.item-image-size{
+	width:100%;
+}
+.item-title{
+	font-size: 20px;
+	#font-weight: bold;
+}
+.item-price{
+	font-size: 20px;
+	#font-weight: bold;
+}
+.page-left{
+    	float: left;
+    	width: 35%;
+    	height: 50%;
+    	margin-left: 80px;
+}
+.page-right{
+    	float: right;
+    	width: 35%;
+    	height: 50%;
+    	display: inline;
+    	margin-left: 40px;
+}
+.graybackground {
+	border: 1px solid #445C86;	    
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+    	background-color: #727882;
+}
+.bluebackground{
+	border: 1px solid #445C86;	    
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+    	background-color: #4682B4;
+}
+.heartfulness-logo{
+	text-align: center;
+	padding-top: 10px;
+}
+.item-name-links{
+	text-align: center;
+    	font-size: x-large;
+    	font-weight: bold;
+    	padding-top: 10px;
+}
+.inventory-header-row{
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	width: 40%;
+}
+.row-border{
+	border: 1px solid #E7E7E7;
+	width: 44%;
+}
+.item-title-bar {
+        width: 1040px;
+        text-align: center;
+        color: white;
+        height: 40px;
+        font-size: 2.0em;
+        background-color: #064365;
+}

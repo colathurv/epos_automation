@@ -1,0 +1,46 @@
+<html>
+<head>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='srcm_nbks_styles.css') }}">
+	<script>
+
+
+	</script>
+</head>
+
+<body>
+    <div>
+		 <img src = {{ url_for('static', filename = 'images/srcmlogo.png') }}>
+    </div>
+    <div class = 'head-bar'>
+				 US National Bookstore Repository
+    </div>
+
+	<div class = 'pane edit-pane'>
+		    <table border="1" cellspacing="0" cellpadding="4" style="margin:auto;">
+		    	<tr>
+					<td class='bluebackground'>Item Code</td>
+					<td class='bluebackground'>Item Description</td>
+					<td class='bluebackground'>Sale Price</td>
+					<td class='bluebackground'>Release Date</td>
+				</tr>
+		    {% for row in results %}
+				<tr>
+					<td style="text-align:center"><a href = '{{ url_for('showItemInventory', sku = row["item_code"] ) }}' > {{ row["item_code"] }} </a></td>
+					<td style="text-align:right">{{ row["item_desc"] }}</td>
+					<td style="text-align:center">{{ row["item_sale_price"] }}</td>
+					<td style="text-align:right">{{ row["date_str"] }}</td>
+				</tr>
+			   {% endfor %}
+		    </table>
+	</div>
+	<div  class ="item-name-links">
+		<a href='{{url_for('searchItemInventory')}}'>Home</a>
+	</div>
+	<p style='padding-bottom: 10px'></p>
+    <div class='heartfulness-logo'><a href="http://en.heartfulness.org/"><img class="navbar-brand" src="http://en.heartfulness.org/wp-content/uploads/sites/2/2016/02/HFNlogo-sahaj-marg-meditation.png" alt="English"></a></div>
+
+
+</body>
+
+</body>
+</html>
